@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class flock : MonoBehaviour
 {
-    float speed = 0.001f;
-    float rotationSpeed = 5.0f;
+    public float speed = 0.001f;
+    public float rotationSpeed = 5.0f;
     Vector3 averagePosition;
 
-    float neighbourDistance = 2.0f;
+    public float neighbourDistance = 2.0f;
 
     // Start is called before the first frame update
     void Start()
